@@ -19,7 +19,7 @@ client.on('message', message => {
       message.channel.send(`ALmonster   ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'setl')) {
-  client.user.setActivity(argresult , {type:'LISTENING https://open.spotify.com/album/5hCtxfbpoV2hUrR1nMcpeU'});
+  client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(`ALmonster   ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'sets')) {
