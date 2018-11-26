@@ -46,12 +46,7 @@ if (message.content.startsWith(prefix + 'help')) {
       ✴setg
       ✴leave
       ✴setavatar
-      ✴ setname
-        })
-        })
-    })
-    }
-});
+      ✴ setname`]
         
         
         
