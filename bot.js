@@ -37,25 +37,27 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 });
 
 client.on('message', message => {
- var prefix = "!!";
+ var prefix = "-";
 if (message.content.startsWith(prefix + 'help')) {
-    let pages = [
-      ✴sets _ستريم_ 
-      ✴setl _LISTENING_
-      ✴setw  _WATCHING_
-      ✴setg
-      ✴leave
-      ✴setavatar
-      ✴ setname`]
-        
-        
-        
-        
-        
-       
+    let pages(`
+***__help__***
+**
+????????????? {?help?} ?????????????
+? sets _ستريم_ 
+? setl _LISTENING_
+?  setw  _WATCHING_
+?  setg
+? leave
+? setavatar
+? setname
+????????????? {? help ?} ?????????????
+**
+`);
+}
+})
+
  
- 
- 
- 
+
+
  
 client.login(process.env.BOT_TOKEN);// áÇ ÊÛíÑ ÝíåÇ ÔíÁ
