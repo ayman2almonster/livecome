@@ -35,6 +35,29 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
+
+client.on('message', message => {
+ var prefix = "!!";
+if (message.content.startsWith(prefix + 'help')) {
+    let pages = [
+      ✴sets _ستريم_ 
+      ✴setl _LISTENING_
+      ✴setw  _WATCHING_
+      ✴setg
+      ✴leave
+      ✴setavatar
+      ✴ setname
+        })
+        })
+    })
+    }
+});
+        
+        
+        
+        
+        
+       
  
  
  
