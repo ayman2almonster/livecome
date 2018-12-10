@@ -16,15 +16,15 @@ client.on('message', message => {
   } else  
   if (message.content.startsWith(adminprefix + 'setw')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`ALmonster   ${argresult}**`)
+      message.channel.send(`Changing The TO   ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'setl')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`ALmonster   ${argresult}**`)
+      message.channel.send(`Changing The TO   ${argresult}**`)
   } else
   if (message.content.startsWith(adminprefix + 'sets')) {
     client.user.setGame(argresult, "https://www.twitch.tv/One");
-      message.channel.send(`ALmonster`)
+      message.channel.send(`Changing The TO  ${argresult}**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
   client.user.setUsername(argresult).then
